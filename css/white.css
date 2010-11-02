@@ -1,0 +1,44 @@
+@import url("default.css");
+
+html {
+    background-color:#fff;
+    color:#141414;
+}
+
+h1, a {
+    color:black;
+}
+
+#site-title {
+    border:2px solid white;
+    color: black;
+}
+
+
+:link { border-bottom: thin solid #fff; }  /* for unvisited links */
+:visited { border-bottom: thin solid #333; } /* for visited links */
+
+
+
+h2 {
+    border-bottom: thin solid black;
+    color: #d30e2b;
+}
+
+h2 :link, h2 :visited, h2 a:hover {
+    color: #d30e2b;
+}
+
+ul#menu a {
+    color: #d30e2b;
+    border-color:#ccc;
+}
+
+ul#menu a:hover{
+    border-color: #d30e2b;
+    color: #000;
+}
+
+p#backtomenupage a {
+    color:#aaa;
+}
