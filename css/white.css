@@ -1,76 +1,9 @@
-/* reset */
-
-h1 {
-   font-size:4em;
-}
-h2 {
-    font-size:123.1%;
-}
-h3 {
-    font-size:108%;
-}
-h1,h2,h3,h4,h5,h6,strong {
-    font-weight:bold;
-}
-p,fieldset,table {
-    margin-bottom:1em;
-}
-
-
-/* text */
+@import url("default.css");
 
 html {
-    font-family:sans-serif;
-    font-family:"Lucida Grande","Verdana",sans-serif;
+    background-color:#fff;
+    color:#141414;
 }
-
-h1 {
-    font-size:4em;
-    font-family:monospace,sans-serif;
-    text-align:center;
-}
-
-h3 {
-    font-size:1em;
-}
-
-h2 {
-    font-weight: bolder;
-    font-size: 1.17em;
-    padding:0 0 0 0;
-}
-
-p#subtitle {
-    text-align: center;
-    font-family:monospace,sans-serif;
-    font-size:2em;
-}
-
-/* margin */
-
-body {
-    padding:0.3em;
-    margin:0;
-}
-
-/* links */
-
-a {
-    text-decoration:none;
-}
-
-a:hover { border-bottom: 2px solid  } /* when link is clicked */
-
-a[hreflang]:after {
-    content:" [" attr(hreflang) "] ";
-    font-weight:bold;
-}
-
-h2 :link, h2 :visited, h2 a:hover {
-    text-decoration:none;
-    border:none;
-}
-
 
 h1, a {
     color:black;
@@ -81,8 +14,10 @@ h1, a {
     color: black;
 }
 
+
 :link { border-bottom: thin solid #fff; }  /* for unvisited links */
 :visited { border-bottom: thin solid #333; } /* for visited links */
+
 
 
 h2 {
@@ -94,3 +29,16 @@ h2 :link, h2 :visited, h2 a:hover {
     color: #d30e2b;
 }
 
+ul#menu a {
+    color: #d30e2b;
+    border-color:#ccc;
+}
+
+ul#menu a:hover{
+    border-color: #d30e2b;
+    color: #000;
+}
+
+p#backtomenupage a {
+    color:#aaa;
+}

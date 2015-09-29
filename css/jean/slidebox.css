@@ -1,0 +1,75 @@
+body{ margin: 0; padding: 0; min-height: 800px;}
+
+#lightbox{
+	background: #eee;
+	padding: 0px 15px 10px 15px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	text-align: center;
+	}
+
+#lightboxDetails{
+	margin: 0px 0px 8px 3px;
+	font-size: 0.8em;
+	padding-top: 0.8em;
+	}
+
+#userMsg{
+	float: left;
+	margin: 0px;
+	font-size: x-small;
+        color: gray;
+	}
+
+#lightboxNumber{
+	margin: 0px;
+	padding-right: 10em;
+	font-family:  arial,verdana, serif;
+	font-size: 12px;
+	font-weight: normal;
+	}
+
+#overlay { background-image: url(images/overlay.png); }
+
+* html #overlay {
+	background-color: #000;
+	back\ground-color: transparent;
+	background-image: url(images/blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader
+	(src="images/overlay.png", sizingMethod="scale");
+	}
+
+#closeButton{
+	top: 6px;
+	right: 6px;
+	border: none;
+	}
+
+#lightboxImage{
+        clear: both;
+	}
+#lightboxCaption {
+	color: #89a;
+	font-family: sans;
+	font-weight: normal;
+	text-align: center;
+	margin: 8px 0px 0px 0px;
+	}
+
+a#go_left {
+	font-weight: bold;
+	float: left;
+	font-size: xx-small;
+	color: #444;
+	text-decoration: none;
+	width: 4em;
+	}
+
+a#go_right{
+	font-weight: bold;
+	float: right;
+	font-size: xx-small;
+	color: #444;
+	text-decoration: none;
+	width: 4em;
+}

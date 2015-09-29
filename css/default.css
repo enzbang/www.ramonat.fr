@@ -1,0 +1,324 @@
+/* reset */
+
+h1 {
+   font-size:4em;
+}
+h2 {
+   font-size:123.1%;
+}
+h3 {
+   font-size:108%;
+}
+h1,h2,h3,h4,h5,h6,strong {
+			 font-weight:bold;
+}
+abbr,acronym {
+	     border-bottom:1px dotted #000;
+	     cursor:help;
+}
+em {
+   font-style:italic;
+}
+
+pre {
+background-color: #E0FFB8;
+}
+
+blockquote,ul,ol,dl {
+		    margin:1em;
+}
+ol,ul,dl {
+	 margin-left:2em;
+}
+ol li {
+   list-style: decimal outside;
+}
+ul li {
+   list-style: disc outside;
+}
+dl dd {
+   margin-left:1em;
+}
+th,td {
+      border:1px solid #000;
+      padding:.5em;
+}
+th {
+   font-weight:bold;
+   text-align:center;
+}
+caption {
+	margin-bottom:.5em;
+	text-align:center;
+}
+p,fieldset,table {
+margin-bottom:1em;
+}
+
+
+/* text */
+
+html {
+     font-family:sans-serif;
+     font-family:"Lucida Grande","Verdana",sans-serif;
+}
+
+h1 {
+    font-size:4em;
+     font-family:monospace,sans-serif;
+    text-align:center;
+}
+
+h3 {
+    font-size:1em;
+}
+
+#valid-xhtml, #date-updated-fp, #date-updated {
+    font-style:italic;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 1.17em;
+    padding:0 0 0 0;
+}
+
+p#author, p#footdate, p#microformat {
+    text-align:right;
+    line-height:1em;
+    font-size:0.7em;
+}
+
+#valid-xhtml, #date-updated-fp {
+    text-align:right;
+    padding:0;
+    font-size:0.7em;
+    margin:0;
+}
+
+.downloadvc, p.gnupg em {
+    font-size:0.8em;
+    padding-left:0.3em;
+}
+
+/* margin */
+
+body {
+    padding:0.3em;
+    margin:0;
+}
+
+#content {
+    padding:0 10% 2em 10%;
+    text-align:left;
+    margin:auto;
+    line-height:1.6em;
+}
+
+#content p {
+    padding:0 2em 0 2em;
+}
+
+hr#footpage {
+    margin-top:6em;
+    border:none;
+}
+
+
+p#backtomenupage {
+    font-size:1.4em;
+    position:absolute;
+    top:0.2em;
+    right:10%;
+}
+
+#date-updated-fp {
+    margin-top:4em;
+}
+
+/* style */
+
+dt {
+    font-weight:bold;
+}
+
+dt:after {
+    content:" :";
+}
+
+.bord {
+    border:thin solid white;
+    padding:1em;
+}
+
+/* links */
+
+a {
+    text-decoration:none;
+}
+
+a:hover { border-bottom: 2px solid  } /* when link is clicked */
+
+a[hreflang]:after {
+    content:" [" attr(hreflang) "] ";
+    font-weight:bold;
+}
+
+h2 :link, h2 :visited, h2 a:hover {
+    text-decoration:none;
+    border:none;
+}
+
+img, p#backtomenupage a {
+    border:none;
+}
+
+a img {
+    text-decoration:none;
+    border:0px none !important;
+    display:inline !important;
+    margin:0px 0px 0px 5px;
+    padding:0px;
+    vertical-align:middle;
+}
+
+
+/* vcard */
+
+.vcard {
+    margin-top:5em;
+    font-size:1.2em;
+    line-height:2.4em;
+    background-repeat:no-repeat;
+    text-align:left;
+}
+
+p#readmycv, p#vcp2 {
+    margin-top:2em;
+}
+
+.geo {
+    font-size:x-small;
+    display:block;
+}
+
+.longitude {
+    background:transparent url(/images/openmap.gif) no-repeat scroll right center;
+    padding-right:15px;
+}
+
+.fn {
+    background-position:right top;
+    background-repeat:no-repeat;
+    font-size:1.1em;
+    font-weight:bold;
+    padding-top:2em;
+}
+
+.vcard p {
+    margin:0em;
+    padding:0em;
+}
+.vcard img {
+    padding-left:2em;
+}
+
+/* photolist */
+
+ul.photolist, ul#menu {
+    padding:0;
+    list-style: none;
+    position:relative;
+}
+
+ul.photolist li, ul#menu li {
+    display: inline;
+    margin: 0 20px 0 0;
+    line-height:200px;
+}
+
+ul.photographein li {
+    margin: 0 60px 0 0;
+}
+
+ul.photolist img {
+    background-color: #222;
+    padding: 5px;
+
+    border: 1px solid #434343;
+}
+
+
+/* Specific for menu page */
+
+ul#menu {
+    font-size:1em;
+    padding: 10px 0;
+    border-bottom: 1px solid #CCC;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap
+}
+
+ul#menu li{
+    line-height:1em;
+}
+
+ul#menu a{
+    text-decoration: none;
+    padding: 0 0 9px 0;
+    border-bottom: 4px solid;
+}
+
+p#choosecolor {
+    text-align:center;
+}
+
+p#choosecolor span {
+    border:thin solid gray;
+}
+
+p#choosecolor span.white a {
+    padding-right:1px;
+    background-color:white;
+    color:white;
+}
+
+p#choosecolor span.black a {
+    padding-right:1px;
+    background-color:black;
+    color:black;
+}
+
+/* Special class */
+
+a.nodec {
+    text-decoration:none;
+    border:0px none !important;
+}
+
+a.nodec:before, a.nodec:after {
+    content: "";
+    content:none;
+}
+
+.title {
+        font-size: 1.5em;
+}
+.subtitle {
+        font-size: 0.8em;
+}
+
+.mb {
+        border: thin solid black;
+        padding: 1em;
+        margin: 1em;
+}
+.mbh {
+        padding: 1em;
+        margin: 1em;
+}
+
+.big {
+        font-size: 1.5em;
+}
