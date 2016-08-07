@@ -1,4 +1,4 @@
-## STO
+## [STO](https://fr.wikipedia.org/wiki/Service_du_travail_obligatoire_(France))
 
 ### Un crime de guerre
 
@@ -21,13 +21,22 @@ pouvaient qu’éprouver pour la population allemande lorsqu’ils virent le dé
 de millions de tonnes de bombes alliées s’abattre sur Hambourg, Berlin ou
 Dresde.
 
-### Une histoire personnelle
 
+<div class="row">
+<div class="col-xs-12 col-md-10">
+<h3>Une histoire personnelle</h3>
 Témoin involontaire de cette frénésie meurtrière, un homme
 éprouva la nécessité de laisser un témoignage. Il coucha sur papier ses
 impressions quelques mois après sa déportation. Pour ses futurs enfants. Pour
 la génération suivante. Par devoir de mémoire. Peu après, il se mariait avec
 une jeune Chalonnaise : ma grand-mère.
+</div>
+<div class="col-xs-12 col-md-2">
+<img src="jpg/jean/vignettes/JeanRamonat-29-11-1943.jpg-s.jpg"
+     alt="jean" class="img-responsive"/>
+</div>
+</div>
+
 
 Un de ses petit-fils, de la génération de ceux qui ont eu vint ans en l’an deux
 mille, cette génération qui n’a pas connu de conflit majeur et qui a vécu dans
@@ -95,6 +104,12 @@ C’était le début d’un long séjour.
 
 ## Premiers jours
 
+
+<div class="row"><div class="col-xs-12">
+<img src="jpg/jean/STO-Groupe1.jpg" class="img-responsive" />
+</div></div>
+
+
 ### 15 février 1943
 
 Mise en bouche en douceur pour le premier jour d’usine, cela commença par une
@@ -149,6 +164,10 @@ faire d’écart. Mieux valait être prudent si l’on voulait éviter les camps
 concentration. Au camp de travail, les hommes n’étaient pas dans l’ignorance
 des pratiques atroces qui se déroulaient là-bas. Jean reprit son travail le
 soir même à dix-huit heures, soulagé malgré tout.
+
+<div class="row"><div class="col-xs-12">
+<img src="jpg/jean/prison.jpg" class="img-responsive" />
+</div></div>
 
 ### 20 avril 1943
 
@@ -268,7 +287,12 @@ La victoire alliée se dessinait. Hanovre se mit à en subir les conséquences.
 Jean, qui fut réaffecté à l’usine de Hambourg, quitta pour la deuxième fois une
 usine et une ville sous les flammes.
 
-## Moral au plus bas
+## Retour à Hambourg
+
+<div class="row"><div class="col-xs-12">
+<img src="jpg/jean/Groupe2.jpg" class="img-responsive" />
+</div></div>
+
 
 ### 3 octobre 1943
 
@@ -396,10 +420,10 @@ Seules ses lettres avaient pu être acheminées en France par la Croix-Rouge.
 A son retour, mon grand-père fréquenta une jeune Chalonaise, ma grand-mère.
 Mais ceci est une autre histoire...
 
-## Remerciements
+## Note de l'auteur
 
-Ce récit n’aurait pas pu être assemblé si mon grand-père n’avait pas témoigné
-par écrit de ce qu’il a vécu. Je tiens à préciser que certaines parties (dont
-son acte de resistance) n’étaient pas dans le carnet.
+J'ai eu l'envie d'êcrire ce récit suite à la lecture du carnet contenant le témoignage de mon grand-père. J'avais souvent entendu mon grand-père parler de cette période mais l'information presque brute couchée dans le carnet quelques mois après son retour me fit vraiment prendre conscience de ce qu'il avait enduré pendant cette déportation.
 
-Merci à tous ceux qui ont recherché, scanné des photographies et ceux qui ont patiemment vérifié les fautes d’orthographes.
+Mon grand-père fut très heureux de voir que je souhaitais en faire un court récit et répondu à mes nombreuses questions.
+
+<p class="text-right"><em>Olivier Ramonat</em></p>
