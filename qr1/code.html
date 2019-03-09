@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="author" href="http://www.ramonat.fr" />
+        <link rel="home" href="/index.html" />
+        <meta name="description" content="Olivier Ramonat's homepage" />
+        <title>Code 1</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+            <div class="container">
+
+            <div class="card-deck">
+                    <div class="card text-dark bg-transparent border-0 shadow-lg">
+                            <img src="mesnager.png" class="card-img-top" alt="QR code">
+                            <div class="card-body">
+                                    <p class="card-text">2006-12-23</p>
+                            </div>
+                    </div>
+                        <div class="card text-white bg-dark border-dark shadow-lg">
+                                <img src="qr1-color.png" class="card-img-top" alt="QR code">
+                                <div class="card-body">
+                                        <p class="card-text">
+                                                <img src="qr-original.png" alt="QR code">
+                                                QR Code - 2019-03-09
+                                        </p>
+                                        <pre class="card-text border border-light p-3 rounded rounded-lg"><code class="text-white-50">qr = qrcode.QRCode(
+    version=1,
+    error_correction=qrcode.constants.ERROR_CORRECT_L,
+    box_size=1,
+    border=4)
+qr.add_data(<span class="text-info">&#39;https://www.ramonat.fr/qr1/&#39;</span>)
+qr.make(fit=True)
+</pre></div>
+                                </div>
+                        </div>
+            </div>
+            </div>
+    </body>
+</html>
